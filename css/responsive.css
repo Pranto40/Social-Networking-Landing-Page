@@ -1,0 +1,125 @@
+
+
+ @media (max-width:910px){
+    .cta_images {
+        margin-right: 35.9rem;
+        width: 10%;
+    }
+}
+
+@media (max-width:1045px){
+    .cta_images {
+        margin-right: 35.9rem;
+        width: 10%;
+    }
+} 
+
+
+ @media (max-width:1200px){
+    .header{
+        padding: 2rem;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+    .home .content h1 {
+        font-size: 5rem;
+    }
+
+} 
+
+
+ @media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}  
+
+
+@media all and (max-width:769px){
+     html{
+        font-size:50%;
+    } 
+    #menu{
+        display: block;
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+
+    .header .navbar ul li{
+        width: 100%;
+    }
+    .header .navbar ul ul{
+        width: 100%;
+        position: relative;
+    }  
+
+    .header .fa-times{
+        transform: rotate(180deg);
+    }
+    .header .nav-toggle{
+        transform: scaleY(1);
+        opacity: 1;
+        top: 8.5rem;
+    }
+
+
+
+    .home {
+        margin-top: 10%;
+    }
+
+      .home .images img {
+       text-align: center;
+       width: 100%;
+    }  
+
+
+    .Community .Community_content{
+        text-align: center;
+    }
+     
+
+    .Community .row .gallery .img{
+       text-align: center;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .cta_content {
+        text-align: center;
+    }
+
+    .cta_content .cta_content_img {
+     display: flex;
+        align-items: center;
+         justify-content: center;
+    }
+     
+}
+
+@media all and (max-width:476px){
+    .header .login{
+         display: none;
+     }
+
+     .cta_images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 154px;
+    }
+}
+
